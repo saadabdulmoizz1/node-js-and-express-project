@@ -1,0 +1,21 @@
+{
+  "name": "node-js-and-express-project",
+  "version": "1.0.0",
+  "description": "this project is for you guys",
+  "main": "Src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Src/app.js -e js,hbs"
+  },
+  "author": "saad",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
